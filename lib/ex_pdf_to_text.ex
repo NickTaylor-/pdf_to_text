@@ -15,8 +15,6 @@ defmodule ExPdfToText do
     crate: :ex_pdf_to_text,
     base_url: "#{github_url}/releases/download/v#{version}",
     version: version,
-    # until the github workflows are fixed
-    force_build: true,
     nif_versions: ["2.16", "2.15"],
     targets: [
       "arm-unknown-linux-gnueabihf",
