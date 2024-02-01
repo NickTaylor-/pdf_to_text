@@ -11,6 +11,7 @@ defmodule ExPdfToText.MixProject do
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
       package: package(),
+      aliases: aliases(),
       deps: deps(),
       name: "ExPdfToText",
       description: "Converts PDF files into string",
